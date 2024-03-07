@@ -1,0 +1,133 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+header{ margin: 44px 0px 144px 76px;}
+
+.link-header{
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(152, 157, 156, 1);
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-header{
+    border-radius: 20.5px;
+    background: rgba(102, 90, 225, 1);
+    width: 130px;
+    height: 41px;
+    border: none;
+    color: white;
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+}
+
+.img-logo{
+    width: 586px;
+    height: 500px;   
+    margin-left: 120px;
+    display: inline-block;
+}
+
+section{
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1{
+    font-weight: 900px;
+    font-size: 100px;
+    line-height: 121.9px;
+    color: rgba(81, 81, 81, 1);
+}
+
+h2{
+    font-weight: 500px;
+    font-size: 58px;
+    line-height: 70.7px;
+    color: rgba(81, 81, 81, 1);
+}
+
+p{
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: rgba(132, 132, 132, 1);
+    width: 515px;
+    margin-top: 32;
+    margin-bottom: 65px;
+}
+
+.button-section{
+    border-radius: 20.5px;
+    background: rgba(173, 255, 0, 1);
+    width: 239px;
+    height: 64px;
+    border: none;
+    font-weight: 700px;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    filter: drop-shadow( 0px 4px 4px rgba(0, 0, 0, 25) );
+    cursor: pointer;
+}
+
+body{
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width:768px){
+
+    header{
+        display: none;
+    }
+
+   .img-logo{
+        max-width: 100%;
+        display: block;
+        margin: 130px auto 20px;
+        width: 354px;
+        height: 317px;
+        position: static;
+        padding: 2%;   
+   }
+
+    h1{
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 61px;
+        text-align: center;
+    }
+
+    h2{
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 36.57px;
+        text-align: center;
+    }
+
+    p{
+        display: none;
+   }
+
+   .button-section{
+        width: 500;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36.57px;
+        margin-top: 20px;
+        display: block;
+        position: absolute;
+    }
+
+    section{
+        display: block;
+        text-align: center;
+    }
+   }
